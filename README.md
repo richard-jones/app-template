@@ -11,16 +11,9 @@ Clone the App Template project:
 get all the submodules
 
     cd myapp
-    git submodule init
-    git submodule update
+    git submodule update --init --recursive
 
-This will initialise and clone the esprit and magnificent octopus libraries
-
-Then get the submodules for Magnificent Octopus
-
-    cd myapp/magnificent-octopus
-    git submodule init
-    git submodule update
+This will initialise and clone the esprit and magnificent octopus libraries, and all of their submodules in turn
 
 Change the origin url, so you can push code to your own repo:
 
