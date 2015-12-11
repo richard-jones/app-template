@@ -20,13 +20,10 @@ Create your virtualenv and activate it
     virtualenv /path/to/venv
     source /path/tovenv/bin/activate
 
-Install esprit and magnificent octopus (in that order)
+Install the dependencies and this app in the correct order:
 
-    cd myapp/esprit
-    pip install -e .
-    
-    cd myapp/magnificent-octopus
-    pip install -e .
+    cd myapp
+    pip install -r requirements.txt
     
 Create your local config
 
