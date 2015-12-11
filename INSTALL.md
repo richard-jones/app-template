@@ -11,16 +11,9 @@ Clone the project:
 get all the submodules
 
     cd myapp
-    git submodule init
-    git submodule update
-
-This will initialise and clone the esprit and magnificent octopus libraries
-
-Then get the submodules for Magnificent Octopus
-
-    cd myapp/magnificent-octopus
-    git submodule init
-    git submodule update
+    git submodule update --init --recursive
+    
+This will initialise and clone the esprit and magnificent octopus libraries, and their submodules in turn.
 
 Create your virtualenv and activate it
 
